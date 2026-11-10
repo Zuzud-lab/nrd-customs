@@ -113,11 +113,15 @@ export default function Home() {
             <a className="button buttonPrimary contactButton" href="tel:+79109151520">Позвонить в мастерскую</a>
           </div>
 
-          <div className="qrModule" aria-label="Место для будущего QR-кода">
-            <div className="qrPlaceholder">
-              <span>QR</span>
-            </div>
-            <p>QR добавим после закрепления постоянного публичного адреса страницы.</p>
+          <div className="qrModule">
+            <a
+              className="qrLink"
+              href="https://zuzud-lab.github.io/nrd-customs/"
+              aria-label="Открыть сайт NRD Customs"
+            >
+              <img className="qrImage" src="/nrd-qr.svg" alt="QR-код сайта NRD Customs" />
+            </a>
+            <p>Отсканируйте, чтобы открыть контакты мастерской на телефоне.</p>
           </div>
         </div>
       </section>

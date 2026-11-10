@@ -432,28 +432,19 @@ h1 {
   text-align: center;
 }
 
-.qrPlaceholder {
+.qrLink {
   width: 190px;
-  aspect-ratio: 1;
-  display: grid;
-  place-items: center;
+  display: block;
   margin-inline: auto;
-  border: 14px solid white;
-  color: var(--navy-800);
-  background:
-    linear-gradient(90deg, #172a4a 12px, transparent 12px) 0 0 / 32px 32px,
-    linear-gradient(#172a4a 12px, white 12px) 0 0 / 32px 32px;
-  box-shadow: 0 0 0 1px rgba(255,255,255,.25);
+  padding: 10px;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 16px 32px rgba(0, 0, 0, .2);
 }
 
-.qrPlaceholder span {
-  display: grid;
-  width: 72px;
-  height: 72px;
-  place-items: center;
-  border-radius: 50%;
-  background: white;
-  font-weight: 900;
+.qrImage {
+  width: 100%;
+  height: auto;
 }
 
 .qrModule p {
